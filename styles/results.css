@@ -1,0 +1,17 @@
+.results-phs {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.results-ph {
+    cursor: pointer;
+}
+
+.results-btn {
+    margin: 30px auto;
+    padding: 30px 62px;
+    font-size: 24px;
+}

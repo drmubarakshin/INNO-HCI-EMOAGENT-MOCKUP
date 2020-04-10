@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/patient-info.css">
     <link rel="stylesheet" href="styles/session.css">
     <link rel="stylesheet" href="styles/message.css">
+    <link rel="stylesheet" href="styles/results.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="main.js">
@@ -21,7 +23,7 @@
 <body class="emo-agent">
     <header class="header">
         <div class="header-left">
-            <img class="header-name" src="logo.svg" alt="">
+            <img class="header-name" src="assets/logo.svg" alt="">
             <div class="header-btnBlock">
                 <a href="index.html">
                     <div class="btn header-btn">
@@ -53,8 +55,78 @@
             <div class="btn green-btn">Info</div>
         </div>
 
-        <div class="session">
+        <div class="results-phs">
+            <img class="results-ph" src="assets/arrow-left.svg" alt="">
+            <img class="results-ph" src="assets/sad.svg" alt="">
+            <img class="results-ph" src="assets/in pain.svg" alt="">
+            <img class="results-ph" src="assets/angry.svg" alt="">
+            <img class="results-ph" src="assets/arrow-right.svg" alt="">
+        </div>
+        <div class="session-person-data">
+            <div class="session-person-data-el">
+                <div class="session-person-data-el-title">
+                    <div class="attribute-title">
+                        Emotion:
+                    </div>
+                </div>
+                <div class="session-person-data-el-data">
+                    <div class="attribute-data">
+                        Patient is in pain
+                    </div>
+                </div>
+            </div>
+            <div class="session-person-data-el">
+                <div class="session-person-data-el-title">
+                    <div class="attribute-title">
+                        Emotion confidence:
+                    </div>
+                </div>
+                <div class="session-person-data-el-data">
+                    <div class="attribute-data">
+                        95%
+                    </div>
+                </div>
+            </div>
+            <div class="session-person-data-el">
+                <div class="session-person-data-el-title">
+                    <div class="attribute-title">
+                        Reliability confidence:
+                    </div>
+                </div>
+                <div class="session-person-data-el-data">
+                    <div class="attribute-data">
+                        70%
+                    </div>
+                </div>
+            </div>
+            <div class="session-person-data-el">
+                <div class="session-person-data-el-title">
+                    <div class="attribute-title">
+                        Question:
+                    </div>
+                </div>
+                <div class="session-person-data-el-data">
+                    <div class="attribute-data">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    </div>
+                </div>
+            </div>
+            <div class="session-person-data-el">
+                <div class="session-person-data-el-title">
+                    <div class="attribute-title">
+                        Answer:
+                    </div>
+                </div>
+                <div class="session-person-data-el-data">
+                    <div class="attribute-data">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    </div>
+                </div>
+            </div>
 
+            <div class="session-person-data-el">
+                <div class="btn green-btn results-btn">Delete answer from report</div>
+            </div>
         </div>
     </div>
 </body>
