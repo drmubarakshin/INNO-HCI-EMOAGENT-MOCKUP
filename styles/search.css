@@ -1,0 +1,90 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.left-side .btn {
+    margin: auto auto 0;
+}
+
+.search .btn {
+    margin: auto 0 0 auto;
+}
+
+.search-input {
+    width: 280px;
+    padding: 14px;
+    margin: 36px auto 0;
+    background: #F9F9F9;
+    border: 1px solid #615E5E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.search-input-little {
+    width: 100px;
+    padding: 14px;
+    margin: 36px auto 0;
+    background: #F9F9F9;
+    border: 1px solid #615E5E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.white-line {
+    height: 6px;
+    margin: 40px 0;
+    background-color: #ffffff;
+}
+
+.users-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    padding: 19px 27px;
+}
+
+.user-card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card-info-snd {
+    margin-left: 43px;
+}
+
+.user-card-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.user-card-text {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.user-card-text-age {
+    margin-top: 24px;
+}
+
+.user-card-text-sex {
+    margin-top: 12px;
+}
