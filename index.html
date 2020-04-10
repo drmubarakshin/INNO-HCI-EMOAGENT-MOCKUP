@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/patient-info.css">
+    <link rel="stylesheet" href="styles/session.css">
+
 </head>
 
 <body class="emo-agent">
@@ -26,21 +29,94 @@
         </div>
     </header>
     <div class="main-body">
+        <div class="patient-info">
+            <div class="patient-info-date patient-info-el">
+                10.04.2020
+            </div>
+            <div class="attribute-title patient-info-el">
+                Patient Name:
+            </div>
+            <div class="patient-info-name">
+                Frederik Mellow
+            </div>
+        </div>
 
-        <!-- <video id="vidDisplay" autoplay="true"></video>
-        <script type="text/javascript">
-            const video = document.querySelector('#vidDisplay');
-            const params = {
-                video: true
-            };
-            navigator.getUserMedia = navigator.getUserMedia;
+        <div class="session">
+            <div class="session-person">
+                <video id="vidDisplay" autoplay="true" class="session-person-video">
+                    Video is not supported in your browser
+                    <script type="text/javascript">
+                        const video = document.querySelector('#vidDisplay');
+                        const params = {
+                            video: true
+                        };
+                        navigator.getUserMedia = navigator.getUserMedia;
+    
+                        if (navigator.getUserMedia) {
+                            navigator.getUserMedia(params, function(stream) {
+                                video.srcObject = stream;
+                            }, console.log);
+                        }
+                    </script>
+                </video>
+                <div class="session-person-data">
+                    <div class="session-person-data-el">
+                        <div class="session-person-data-el-title">
+                            <div class="attribute-title">
+                                Age:
+                            </div>
+                        </div>
+                        <div class="session-person-data-el-data">
+                            <div class="attribute-data">
+                                20
+                            </div>
+                        </div>
+                    </div>
+                    <div class="session-person-data-el">
+                        <div class="session-person-data-el-title">
+                            <div class="attribute-title">
+                                Sex:
+                            </div>
+                        </div>
+                        <div class="session-person-data-el-data">
+                            <div class="attribute-data">
+                                Male
+                            </div>
+                        </div>
+                    </div>
+                    <div class="session-person-data-el">
+                        <div class="session-person-data-el-title">
+                            <div class="attribute-title">
+                                Hearth rate:
+                            </div>
+                        </div>
+                        <div class="session-person-data-el-data">
+                            <div class="attribute-data">
+                                79 / 120
+                            </div>
+                        </div>
+                    </div>
+                    <div class="session-person-data-el">
+                        <div class="session-person-data-el-title">
+                            <div class="attribute-title">
+                                Previous diseases:
+                            </div>
+                        </div>
+                        <div class="session-person-data-el-data">
+                            <div class="attribute-data">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="session-log">
 
-            if (navigator.getUserMedia) {
-                navigator.getUserMedia(params, function(stream) {
-                    video.srcObject = stream;
-                }, console.log);
-            }
-        </script> -->
+            </div>
+        </div>
+
+
 
     </div>
     <div class="chat-body"></div>

@@ -1,0 +1,34 @@
+.patient-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.patient-info-el {
+    margin-right: 20px;
+}
+
+.patient-info-date {
+    display: flex;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.patient-info-name {
+    padding: 11px 66px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #585151;
+    background: #F9F9F9;
+    border: 1px solid #615E5E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

@@ -1,7 +1,8 @@
 .emo-agent {
     display: flex;
-    flex-direction: row;
-    margin: 0 56px;
+    flex-direction: column;
+    margin: -10px 140px 200px;
+    background: #F2F2F2;
 }
 
 .header-btn {
