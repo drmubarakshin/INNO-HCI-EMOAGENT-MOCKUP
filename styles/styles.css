@@ -8,3 +8,9 @@
 .header-btn {
     margin-right: 32px;
 }
+
+a {
+    color: blue;
+    text-decoration: none;
+    /* no underline */
+}
