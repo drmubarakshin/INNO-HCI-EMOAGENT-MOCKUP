@@ -1,0 +1,9 @@
+.emo-agent {
+    display: flex;
+    flex-direction: row;
+    margin: 0 56px;
+}
+
+.header-btn {
+    margin-right: 32px;
+}

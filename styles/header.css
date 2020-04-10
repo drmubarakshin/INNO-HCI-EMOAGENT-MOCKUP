@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 78px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 32px;
+}
+
+.header-btnBlock {
+    display: flex;
+    flex-direction: row;
+}
