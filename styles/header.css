@@ -1,15 +1,23 @@
 .header {
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    height: 78px;
-    width: 100%;
+    height: 70px;
+    width: calc(100% + 280px);
     justify-content: space-between;
     align-items: center;
+    margin-left: -140px;
 }
 
 .header-left {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.header-right {
+    margin-right: 140px;
 }
 
 .header-name {

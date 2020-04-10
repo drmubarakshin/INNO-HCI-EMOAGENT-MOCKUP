@@ -1,7 +1,7 @@
 .emo-agent {
     display: flex;
     flex-direction: column;
-    margin: -10px 140px 200px;
+    margin: 0 140px 200px;
     background: #F2F2F2;
 }
 
