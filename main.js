@@ -14,10 +14,17 @@ jQuery(document).ready(function($) {
             $('#chat').append('<div class="message message-question">' + newMessage + '</div>');
             setTimeout(function() {
                 $('#chat').append('<div class="message message-answer">' + currAnswer + '</div>');
-                if (questionNum === 1)
+                if (questionNum === 1) {
+                    $('#rd-pain').prop('checked', true);
+                    $('#rd-truth').prop('checked', true);
                     currAnswer = secondAnswer;
-                else if (questionNum === 2) {
+                } else if (questionNum === 2) {
+                    $('#rd-angry').prop('checked', true);
+                    $('#rd-lie').prop('checked', true);
                     currAnswer = thirdAnswer;
+                } else {
+                    $('#rd-sad').prop('checked', true);
+                    $('#rd-uncert').prop('checked', true);
                 }
                 questionNum++;
             }, 5000);
