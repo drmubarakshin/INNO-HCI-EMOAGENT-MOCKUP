@@ -1,0 +1,22 @@
+.message {
+    display: flex;
+    width: fit-content;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    background: #95E09D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.message-question {
+    margin-left: auto;
+}
+
+.message-answer {
+    margin-right: auto;
+}

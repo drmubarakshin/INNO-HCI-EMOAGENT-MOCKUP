@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/patient-info.css">
     <link rel="stylesheet" href="styles/session.css">
+    <link rel="stylesheet" href="styles/message.css">
 
+    <script></script>
 </head>
 
 
@@ -19,7 +21,7 @@
         <div class="header-left">
             <img class="header-name" src="logo.svg" alt="">
             <div class="header-btnBlock">
-                <div class="btn header-btn">Recording</div>
+                <div class="btn green-btn header-btn">Recording</div>
                 <div class="btn">End consultation</div>
             </div>
         </div>
@@ -86,7 +88,7 @@
                     <div class="session-person-data-el">
                         <div class="session-person-data-el-title">
                             <div class="attribute-title">
-                                Hearth rate:
+                                Heart rate:
                             </div>
                         </div>
                         <div class="session-person-data-el-data">
@@ -118,7 +120,47 @@
                 </div>
             </div>
             <div class="session-log">
+                <div class="session-log-chat">
+                    <div class="message message-question">
+                        Question number one
+                    </div>
+                    <div class="message message-answer">
+                        Answer number one
+                    </div>
+                    <div class="message message-question">
+                        Question number two
+                    </div>
+                </div>
 
+                <div class="patient-condition-block">
+                    <input type="text" class="session-log-input" placeholder="Enter the next question...">
+                    <div class="patient-condition-rdblock">
+                        <input name="condition" type="radio">
+                        <input name="condition" type="radio">
+                        <input name="condition" type="radio">
+                        <input name="condition" type="radio">
+                        <input name="condition" type="radio">
+                        <span></span>
+                    </div>
+                    <div class="patient-condition-rdtextblock">
+                        <div>happy</div>
+                        <div>afraid</div>
+                        <div>in pain</div>
+                        <div>sad</div>
+                        <div>angry</div>
+                    </div>
+                    <div class="patient-condition-rdblock">
+                        <input name="t-condition" type="radio">
+                        <input name="t-condition" type="radio">
+                        <input name="t-condition" type="radio">
+                        <span></span>
+                    </div>
+                    <div class="patient-condition-rdtextblock">
+                        <div>lie</div>
+                        <div>uncertainty</div>
+                        <div>truth</div>
+                    </div>
+                </div>
             </div>
         </div>
 

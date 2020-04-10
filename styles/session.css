@@ -48,4 +48,60 @@
 
 .session-log {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.session-log-chat {
+    padding: 18px;
+    background-color: #ffffff;
+    height: 550px;
+    overflow: hidden;
+}
+
+.session-log-input {
+    width: 500px;
+    margin: 36px auto 0;
+    background: #F9F9F9;
+    border: 1px solid #615E5E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 26px 38px;
+}
+
+.patient-condition-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.patient-condition-rdblock {
+    margin: 58px auto 0;
+    position: relative;
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.patient-condition-rdblock span {
+    position: absolute;
+    background-color: #000000;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    z-index: -1;
+}
+
+.patient-condition-rdbutton {
+    z-index: 999;
+}
+
+.patient-condition-rdtextblock {
+    margin: 0 auto 0;
+    position: relative;
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
 }
