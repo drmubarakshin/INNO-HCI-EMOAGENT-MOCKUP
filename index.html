@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="styles/session.css">
     <link rel="stylesheet" href="styles/message.css">
 
-    <script></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js">
+    </script>
 </head>
 
 
@@ -120,20 +122,11 @@
                 </div>
             </div>
             <div class="session-log">
-                <div class="session-log-chat">
-                    <div class="message message-question">
-                        Question number one
-                    </div>
-                    <div class="message message-answer">
-                        Answer number one
-                    </div>
-                    <div class="message message-question">
-                        Question number two
-                    </div>
+                <div id="chat" class="session-log-chat">
                 </div>
 
                 <div class="patient-condition-block">
-                    <input type="text" class="session-log-input" placeholder="Enter the next question...">
+                    <input id="chat-input" type="text" class="session-log-input" placeholder="Enter the next question...">
                     <div class="patient-condition-rdblock">
                         <input name="condition" type="radio">
                         <input name="condition" type="radio">
